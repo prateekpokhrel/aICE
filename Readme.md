@@ -1,4 +1,5 @@
-# aICE- 𝐀𝐈 𝐈𝐧𝐭𝐞𝐫𝐚𝐜𝐭𝐢𝐨𝐧 𝐂𝐨𝐧𝐭𝐫𝐨𝐥 𝐄𝐧𝐠𝐢𝐧𝐞 Backend Engineering Mega Project
+# aICE - 𝐀𝐈 𝐈𝐧𝐭𝐞𝐫𝐚𝐜𝐭𝐢𝐨𝐧 𝐂𝐨𝐧𝐭𝐫𝐨𝐥 𝐄𝐧𝐠𝐢𝐧𝐞 
+# Backend Engineering Mega Project
 
 Enterprise-grade Spring Boot microservice implementing Redis-powered virality guardrails, concurrency-safe atomic locks, smart notification batching, nested threaded comments, and real-time analytics.
 
