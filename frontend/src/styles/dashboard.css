@@ -1,0 +1,11 @@
+.dashboard-panel {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.notification-item {
+  padding: 15px;
+  background: #0f172a;
+  border-radius: 10px;
+}

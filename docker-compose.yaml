@@ -1,0 +1,31 @@
+services:
+
+  postgres:
+
+    image: postgres:latest
+
+    container_name: aice-postgres
+
+    environment:
+      POSTGRES_DB: mydatabase
+      POSTGRES_USER: myuser
+      POSTGRES_PASSWORD: secret
+
+    ports:
+      - "60334:5432"
+
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+  redis:
+
+    image: redis:latest
+
+    container_name: aice-redis
+
+    ports:
+      - "60335:6379"
+
+volumes:
+
+  postgres_data:

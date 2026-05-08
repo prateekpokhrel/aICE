@@ -1,0 +1,41 @@
+.posts-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.comment-section {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.comment-section textarea {
+  min-height: 80px;
+  border-radius: 10px;
+  border: none;
+  padding: 10px;
+}
+.like-button {
+
+  margin-top: 10px;
+  padding: 10px 18px;
+
+  border: none;
+  border-radius: 10px;
+
+  background: #2383ff;
+  color: white;
+
+  font-weight: bold;
+  cursor: pointer;
+
+  transition: 0.3s;
+}
+
+.like-button:hover {
+
+  background: #4ea1ff;
+  transform: scale(1.05);
+}
